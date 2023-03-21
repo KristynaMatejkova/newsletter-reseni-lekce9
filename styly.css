@@ -40,3 +40,7 @@ button {
 input {
 	width: 11em;
 }
+
+.text-pole {
+	border: 7px solid red;
+}
