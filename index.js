@@ -9,7 +9,7 @@ const odebirat = (event) => {
 	form.textContent = `Děkujeme za váš zájem. Těšte se na novinky ze světa frontendu a UX na vaší adrese ${email}.`
 }
 
-const kontrolaText = (event) => {
+const kontrolaText = () => {
 	if (textPole.value === '' || textPole.value.indexOf('@') === -1) {
 		textPole.classList.add('text-pole')
 	} else {
